@@ -3,3 +3,4 @@ package.json
 README_instructions.md
 
 node_modules
+npm-debug.log
