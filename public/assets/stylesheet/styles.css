@@ -1,0 +1,123 @@
+body {
+
+  font-size: 120%;
+  font-family: 'Rubik', sans-serif;
+  margin: 0 !important;
+}
+
+button, input {
+
+  font-size: 95%;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+button:hover {
+
+  background: #6666FF !important;
+  transition: all 0.45s ease-in-out !important;
+  color: white;
+
+}
+
+.navbar {
+
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  background-color: black !important;
+  display: flex;
+  justify-content: center !important;
+
+}
+
+.navbar-brand {
+
+  font-size:16px;
+  color: #6666FF !important;
+  
+}
+
+
+table {
+
+  width: 100%;
+
+}
+
+td, th {
+
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+
+  background-color: #dddddd;
+
+}
+
+.error {
+
+  color: #6666FF;
+  ;
+
+}
+
+.wrapper {
+
+  margin: 0 auto;
+  max-width: 825px;
+  text-align: center;
+
+}
+
+.total {
+
+  font-size: 150%;
+  
+}
+
+.totalColor {
+  
+  color: #6666FF;
+}
+
+.form {
+
+  margin-top: 25px;
+  width: 100%;
+
+}
+
+
+.transactions {
+
+  text-align: left;
+  max-height: 300px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+@media screen and (min-width:287px) {
+
+  input.regularInput{
+
+    width: 275px;
+
+  }
+}
+
+
+@media screen and (max-width:286px) {
+
+  input.responsiveInput{
+
+    width: 240px;
+
+  }
+}
+
